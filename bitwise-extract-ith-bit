@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+
+    int num, i, cond;
+    scanf("%d %d", &num, &i);
+    cond = ((num>>i) & 1);
+    printf("%d",cond);
+    
+    
+    return 0;
+}
