@@ -32,8 +32,8 @@ int main()
       }
     }
     if(flag2 == 0)
-        printf("YES");
+        printf("YES . ");
     else
-        printf("NO");
+        printf("NO .");
   }
 }
